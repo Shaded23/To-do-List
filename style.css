@@ -1,0 +1,56 @@
+/* To-Do */
+/* 
+-Center the content on the web page
+
+
+*/
+
+/* || Global */
+body, html {
+    /* background-image: radial-gradient(#c5f5a5, #5ddf8462); */
+    /* background-image: linear-gradient(90deg, #a9ff9e, #66ffeb, #82ee90); */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+ul{
+    padding: 0;
+}
+.page-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 25px 50px 0 50px;
+}
+.main-wrapper{
+    width: 500px;
+}
+/* .item-wrapper{
+
+} */
+
+/* || Branding */
+.branding{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* || Items */
+.base-s{
+    border: 3px solid #ececec;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+.todo{
+    background-color: white;
+    font-size: 20px;
+    margin: 5px 0;
+    list-style-type: none;
+}
+.add-todo{
+    background-color: #cf66ff;
+    font-size: 14px;
+}
