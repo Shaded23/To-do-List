@@ -46,11 +46,13 @@ ul{
 }
 .todo{
     background-color: white;
+    cursor: pointer;
     font-size: 20px;
     margin: 5px 0;
     list-style-type: none;
 }
 .add-todo{
     background-color: #cf66ff;
+    cursor: pointer;
     font-size: 14px;
 }
